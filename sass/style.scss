@@ -1,4 +1,3 @@
-@use"sass/reklamstyle";
 
 .header-container{
 display: flex;
@@ -195,3 +194,8 @@ text-decoration: none;
         color: #47b2e4;
     }
   }
+ @media (max-width: 800px) {
+    .why-us{
+    object-fit: cover;
+    }
+ }
